@@ -1,0 +1,22 @@
+Local person detection dependencies
+
+TensorFlow.js 4.22.0
+https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js
+COCO-SSD 2.2.3
+https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.3/dist/coco-ssd.min.js
+Official source and API:
+https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd
+
+SSDLite MobileNet V2 graph and all five weight shards:
+https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/model.json
+The downloaded public graph and shard bytes are pinned by ASSET-SHA256.json.
+
+TensorFlow.js, COCO-SSD, and the upstream model distribution use Apache 2.0.
+The upstream TensorFlow.js models license is retained in LICENSE.
+worker.js is application code that runs the fixed libraries on the CPU.
+
+The detector returns generic 'person' bounding boxes. It does not recognize
+identity, measure distance, locate anatomical foot landmarks, or guarantee
+complete-body visibility. The box bottom-center is only a framing reference.
+Camera and photo pixels stay on the user's device; model resources are served
+from the same site. No inference endpoint receives user images.

@@ -1,0 +1,19 @@
+/build/
+/local.properties
+*.jks
+*.keystore
+*.p12
+*password*
+
+# Keep credentials, signed package artifacts, and private audit records out of Git.
+*.pem
+*.pfx
+*.pkcs12
+*.key
+*.asc
+*.csr
+*.crt
+*.cer
+*build-report*.json
+*release-verification*.json
+*signing*.json

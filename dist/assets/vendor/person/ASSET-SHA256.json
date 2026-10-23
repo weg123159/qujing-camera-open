@@ -1,0 +1,56 @@
+[
+  {
+    "file": "LICENSE",
+    "bytes": 11357,
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "source": "https://raw.githubusercontent.com/tensorflow/tfjs-models/master/LICENSE"
+  },
+  {
+    "file": "coco-ssd.min.js",
+    "bytes": 9299,
+    "sha256": "8875b8c1bb57723990c9d6506226e0e51cd21b8b6943eb53201086096de52df5",
+    "source": "https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.3/dist/coco-ssd.min.js"
+  },
+  {
+    "file": "model/group1-shard1of5",
+    "bytes": 4194304,
+    "sha256": "0e7af0f713e98521252321f7f84892c31cefccccec3ac64c84e5065b75ed5646",
+    "source": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard1of5"
+  },
+  {
+    "file": "model/group1-shard2of5",
+    "bytes": 4194304,
+    "sha256": "74cc6cfc2c4510c9cd81b8ad4cebf6f6a8f305119bb365ce0eb96276da38519a",
+    "source": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard2of5"
+  },
+  {
+    "file": "model/group1-shard3of5",
+    "bytes": 4194304,
+    "sha256": "50383033f893eae136392a403e8f70ade5efd90867df5695c4ca5ac640e14f38",
+    "source": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard3of5"
+  },
+  {
+    "file": "model/group1-shard4of5",
+    "bytes": 4194304,
+    "sha256": "d856dc534c780068bbf6c666ce1516df2c8433d87578aa31fcdf197de7058cc2",
+    "source": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard4of5"
+  },
+  {
+    "file": "model/group1-shard5of5",
+    "bytes": 1257312,
+    "sha256": "3d356f1fb6dfca6af78c56db34d9326706d0196e303f9de6b04f236ca79ed309",
+    "source": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard5of5"
+  },
+  {
+    "file": "model/model.json",
+    "bytes": 527315,
+    "sha256": "3770b2528339b1e3340cb74360e1e40401816b009779aeb8d0cce3a4353ea3a9",
+    "source": "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/model.json"
+  },
+  {
+    "file": "tf.min.js",
+    "bytes": 1469843,
+    "sha256": "300dfae273d20b4046f46a06d735688f03675a807561e9bcb5f664eb2f3d2831",
+    "source": "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"
+  }
+]

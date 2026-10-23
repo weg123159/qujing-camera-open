@@ -1,0 +1,33 @@
+Local dependencies for the Frame Guide prototype
+
+MediaPipe Tasks Vision, fixed npm version 0.10.14.
+Upstream: https://github.com/google-ai-edge/mediapipe
+JavaScript/WASM source distribution:
+https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.14/
+License text is retained in LICENSE from upstream tag v0.10.14.
+
+BlazeFace short-range face detection model, float16 version 1:
+https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite
+Model documentation:
+https://developers.google.com/edge/mediapipe/solutions/vision/face_detector
+Official BlazeFace Short Range Model Card (Google), first page states
+"Licensed under Apache License, Version 2.0":
+https://storage.googleapis.com/mediapipe-assets/MediaPipe%20BlazeFace%20Model%20Card%20%28Short%20Range%29.pdf
+The pre-trained model is the Google-offered BlazeFace Short Range float16 v1;
+retain the accompanying Apache-2.0 license and upstream attribution.
+
+Camera frames and user-selected photos are processed on the user's device.
+Model results identify face locations; they do not measure aesthetic quality,
+identify people, or detect complete human bodies.
+
+Compatibility detector for devices without WebGL:
+face-api.js npm version 0.22.2 (MIT), bundled TensorFlow.js core 1.7.0
+(Apache 2.0). Licenses are retained in face-api/LICENSE and
+face-api/TENSORFLOW-LICENSE.
+https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js
+https://github.com/justadudewhohacks/face-api.js
+TinyFaceDetector weights are copied from the official 0.22.2 tag, exact commit
+8609b25a15f417398a4d2b95dc91985cd1e0c0c3, under weights/.
+TensorFlow's Apache license is copied from the upstream tensorflow/tfjs
+repository. The fallback explicitly selects tf.setBackend('cpu'); it uses no
+WebGL inference, and the live inference rate is capped at 4 frames per second.

@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "version": "8074f1c4a2f481cd5608cb449b09398c579909119d5add8b50daa054b7f52779",
+  "workerHash": "303eb138d10a5f6b6be82b97061bd7dc9eb5e1e29c0dc8d97533ba0a36296929",
+  "totalFiles": 49,
+  "totalBytes": 41579687,
+  "assets": [
+    {
+      "url": "app.mjs",
+      "bytes": 78429,
+      "sha256": "33857eaa84d509fb1e2298517a8794c5aa34fef261cc28eb56ea9e9ec439f386"
+    },
+    {
+      "url": "assets/app-icon-192.png",
+      "bytes": 3088,
+      "sha256": "21684b8a45f4ad82aad608499e8ac73b4fb80e983dc32adef6f7f88727dad8e4"
+    },
+    {
+      "url": "assets/app-icon-512.png",
+      "bytes": 10047,
+      "sha256": "5be8556136e5ccef03cf517506488f1e99b3b7877ac3a53806b838603382c962"
+    },
+    {
+      "url": "assets/demo.jpg",
+      "bytes": 425872,
+      "sha256": "beb838d170ceb214518a76bb88bd04d95f73bd9055c0f7db6259f297235b3de1"
+    },
+    {
+      "url": "assets/icon.svg",
+      "bytes": 288,
+      "sha256": "d1bba070e531b2c0ab54142f20f1fb305331a82a691ab46e2482a23220a1dfce"
+    },
+    {
+      "url": "assets/portrait.jpg",
+      "bytes": 315905,
+      "sha256": "9253ce23129782bf6d9a8d2fe17f9d50540991c8c745c2157a75e03f19f1d890"
+    },
+    {
+      "url": "assets/vendor/LICENSE",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    },
+    {
+      "url": "assets/vendor/NOTICE.txt",
+      "bytes": 1876,
+      "sha256": "3b3f05effb5132113e413ac2ca94b3f7f4447fb4a1b99d47986b9e80365857f9"
+    },
+    {
+      "url": "assets/vendor/blaze_face_short_range.tflite",
+      "bytes": 229746,
+      "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f"
+    },
+    {
+      "url": "assets/vendor/face-api/LICENSE",
+      "bytes": 1093,
+      "sha256": "a75d0c9ddf275d6e25f1e449cc8f8dfa8dab7756cc0e8a360dfedc9c7784d0a5"
+    },
+    {
+      "url": "assets/vendor/face-api/TENSORFLOW-LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "url": "assets/vendor/face-api/face-api.min.js",
+      "bytes": 663829,
+      "sha256": "5d66ec95338d7fcc365ce15481b8599baf4b6e22c9a624b76d4ca821a669a659"
+    },
+    {
+      "url": "assets/vendor/face-api/weights/tiny_face_detector_model-shard1",
+      "bytes": 193321,
+      "sha256": "b7503ce7df31039b1c43316a9b865cab6a70dd748cc602d3fa28b551503c3871"
+    },
+    {
+      "url": "assets/vendor/face-api/weights/tiny_face_detector_model-weights_manifest.json",
+      "bytes": 2953,
+      "sha256": "14c60659a31b6b7b1320077171b8f8adcb24ef0e62dde62ce603bcb49a1b49b5"
+    },
+    {
+      "url": "assets/vendor/person/ASSET-SHA256.json",
+      "bytes": 2229,
+      "sha256": "ca150e1a38a0037defc28446209ac8da66e4c9c6cae723ef75d6551f1b3110ee"
+    },
+    {
+      "url": "assets/vendor/person/LICENSE",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "url": "assets/vendor/person/NOTICE.txt",
+      "bytes": 1119,
+      "sha256": "8e0314287e987532e6a851374109a908c98e874c8943f2de4656c70aedb90807"
+    },
+    {
+      "url": "assets/vendor/person/coco-ssd.min.js",
+      "bytes": 9299,
+      "sha256": "8875b8c1bb57723990c9d6506226e0e51cd21b8b6943eb53201086096de52df5"
+    },
+    {
+      "url": "assets/vendor/person/model/group1-shard1of5",
+      "bytes": 4194304,
+      "sha256": "0e7af0f713e98521252321f7f84892c31cefccccec3ac64c84e5065b75ed5646"
+    },
+    {
+      "url": "assets/vendor/person/model/group1-shard2of5",
+      "bytes": 4194304,
+      "sha256": "74cc6cfc2c4510c9cd81b8ad4cebf6f6a8f305119bb365ce0eb96276da38519a"
+    },
+    {
+      "url": "assets/vendor/person/model/group1-shard3of5",
+      "bytes": 4194304,
+      "sha256": "50383033f893eae136392a403e8f70ade5efd90867df5695c4ca5ac640e14f38"
+    },
+    {
+      "url": "assets/vendor/person/model/group1-shard4of5",
+      "bytes": 4194304,
+      "sha256": "d856dc534c780068bbf6c666ce1516df2c8433d87578aa31fcdf197de7058cc2"
+    },
+    {
+      "url": "assets/vendor/person/model/group1-shard5of5",
+      "bytes": 1257312,
+      "sha256": "3d356f1fb6dfca6af78c56db34d9326706d0196e303f9de6b04f236ca79ed309"
+    },
+    {
+      "url": "assets/vendor/person/model/model.json",
+      "bytes": 527315,
+      "sha256": "3770b2528339b1e3340cb74360e1e40401816b009779aeb8d0cce3a4353ea3a9"
+    },
+    {
+      "url": "assets/vendor/person/tf.min.js",
+      "bytes": 1469843,
+      "sha256": "300dfae273d20b4046f46a06d735688f03675a807561e9bcb5f664eb2f3d2831"
+    },
+    {
+      "url": "assets/vendor/person/worker.js",
+      "bytes": 1547,
+      "sha256": "7f637537f466fba604e46892ba920627246e0b2d5460825fe0868853c935e82a"
+    },
+    {
+      "url": "assets/vendor/vision_bundle.mjs",
+      "bytes": 136870,
+      "sha256": "e77f281f9619150d937023c355bae170e9120e3b9e43f1e23a2a7bee07197669"
+    },
+    {
+      "url": "assets/vendor/wasm/vision_wasm_internal.js",
+      "bytes": 209826,
+      "sha256": "9440cf0cc0cea21800e31581ec32aeedcc5fbf9df4509796bbc7d3f99e52ab9c"
+    },
+    {
+      "url": "assets/vendor/wasm/vision_wasm_internal.wasm",
+      "bytes": 9423986,
+      "sha256": "f82a8e6c05e08a44cc9f9e7ec5f845935bcbb1b1500ebe8c2f4812fb4e2917dc"
+    },
+    {
+      "url": "assets/vendor/wasm/vision_wasm_nosimd_internal.js",
+      "bytes": 209735,
+      "sha256": "abe9b6fbeaf86fcb53a5edce3926c82ccb0619e18fed4d9d9ce561ee7f55e054"
+    },
+    {
+      "url": "assets/vendor/wasm/vision_wasm_nosimd_internal.wasm",
+      "bytes": 9294247,
+      "sha256": "38b61feab2fd7934e05cbe9f68baa308978a5e3b7f85c1913bb8ae89b8ef8b97"
+    },
+    {
+      "url": "camera.mjs",
+      "bytes": 44032,
+      "sha256": "43d84eb12e2472712b9396d5edb0e0ddd1bbc70c5b9af4b42c53034a23e397ae"
+    },
+    {
+      "url": "composition-engine.mjs",
+      "bytes": 23428,
+      "sha256": "25d9092f10067369a906a666bb2b6a7654d04d781821030869be98ecc9b14c6c"
+    },
+    {
+      "url": "guidance-stability.mjs",
+      "bytes": 21276,
+      "sha256": "fefe5cc61a412faba9173b943f699a940d7b9626cd54d34f80c31eee53716a87"
+    },
+    {
+      "url": "guide.mjs",
+      "bytes": 14124,
+      "sha256": "240c318e58d9ac0ddb12bb1fa3036dbfcec43d355a79e45381af7f726afe9128"
+    },
+    {
+      "url": "index.html",
+      "bytes": 36659,
+      "sha256": "7a6c7ee5cc7827f93dec4071a21e1c264f1bad7dcc0a342cb668f8c9b1574f67"
+    },
+    {
+      "url": "manifest.webmanifest",
+      "bytes": 575,
+      "sha256": "f520b3042beeb844d079eba704b099a4c8fe497887b38c8aa90555eedd91a131"
+    },
+    {
+      "url": "native-bridge.mjs",
+      "bytes": 7230,
+      "sha256": "c76160534d58ebbbed641e58dcf871ee2e65b0ee4bb55d7bfb74a51b3fdc3642"
+    },
+    {
+      "url": "offline.mjs",
+      "bytes": 6547,
+      "sha256": "b5a359798964d0b6df27731ed311890450d9bb4d26c2b91c75c7d750a22e32bd"
+    },
+    {
+      "url": "person.mjs",
+      "bytes": 10100,
+      "sha256": "c745cd0ccfb6c09a797506ed73bacc9460a361528009acfe6777914d5c286b52"
+    },
+    {
+      "url": "photo-style.mjs",
+      "bytes": 5353,
+      "sha256": "6ab5e46c5985b74c4b156f8c2cada8a68d60313508ee2970f91510081720c29b"
+    },
+    {
+      "url": "photo-workbench.mjs",
+      "bytes": 21288,
+      "sha256": "04d9d379bae82cd369290f8551297272132758bc78c7287fd1a17717fec5f0b9"
+    },
+    {
+      "url": "planner.mjs",
+      "bytes": 9006,
+      "sha256": "a4783188901d47aba537a9a0eba75b1ecd69e2a7787431f61d22f3ae4953b85d"
+    },
+    {
+      "url": "poses.mjs",
+      "bytes": 19490,
+      "sha256": "bac76a9436cd5c3d29e5dffa8980de1658baf855ea729d3281cca32e62e2dc02"
+    },
+    {
+      "url": "scene-analysis.mjs",
+      "bytes": 12604,
+      "sha256": "75f057ef4e8247e0b19f06bd0006bb6f02ac1a2738e3617c568e15ec77c4bd66"
+    },
+    {
+      "url": "shots.mjs",
+      "bytes": 13240,
+      "sha256": "b74e945cc160c3cb9bccc091e22cd3a008c081555173c66f560a240f98981afd"
+    },
+    {
+      "url": "style.css",
+      "bytes": 48813,
+      "sha256": "fb63f1ac66e13ce80d39cb844adc733c2a1cc1db04ee8dc0d647ac0b7a55b4eb"
+    },
+    {
+      "url": "zoom-geometry.mjs",
+      "bytes": 1353,
+      "sha256": "328b2aa2e46cbf4aefd9cc466888d2f8df180fe1769d72c63ce3ff97eec4fb5b"
+    },
+    {
+      "url": "zoom-motion.mjs",
+      "bytes": 2532,
+      "sha256": "56012c4941e8fea8940434c7cf99f95510f4faea40dbcd62f4bd4f7c7437ea06"
+    }
+  ]
+}
