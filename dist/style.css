@@ -47,3 +47,8 @@ body,.camera-stage{background:#08090b}.camera-app{max-width:480px}.camera-header
 .license-files button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .license-files button:disabled{opacity:.55;cursor:wait}
 .license-text{white-space:pre-wrap;overflow-wrap:anywhere;overflow:auto;max-height:min(36vh,350px);background:var(--bg);border:1px solid var(--line);padding:12px;border-radius:12px;color:var(--ink);font-size:.73rem;line-height:1.45}
+
+/* Bilingual UI: language buttons stay visible and usable in the settings sheet. */
+.language-settings .segmented{width:100%;display:flex;gap:4px}
+.language-settings .segmented button{flex:1;min-width:0}
+:lang(en) .pose-card strong{overflow-wrap:anywhere}

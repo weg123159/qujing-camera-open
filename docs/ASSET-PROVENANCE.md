@@ -1,5 +1,7 @@
 # 示例图像来源
 
+**语言 / Language：** **简体中文** · [English](ASSET-PROVENANCE.en.md)
+
 2026-10-23，项目作者使用 **网页版 ChatGPT** 生成两张原创演示图片，并提供原始 PNG；应用交付前转为 RGB JPEG，画幅均为 1086 × 1448。
 
 | 当前路径 | 上传 PNG 的 SHA-256 | 打包 JPEG 的 SHA-256 |

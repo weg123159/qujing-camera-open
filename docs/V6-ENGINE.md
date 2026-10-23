@@ -1,5 +1,7 @@
 # V6 构图、光线与倍率计算引擎
 
+**语言 / Language：** **简体中文** · [English architecture overview](V6-ENGINE.en.md)
+
 日期：2026-10-21。本文依据当前仓库代码说明模块行为与接入约定，面向维护者和验收人员。
 
 **状态：算法模块与 UI 已接入，模块回归测试可以在当前源码中运行；Android 真机表现与设备离线验收仍为 NOT_RUN。** 模块测试不代表手机镜头切换、帧率、设备参数响应或离线首启已通过。相关断言参见 [构图测试](../tests/composition-engine.test.mjs)、[相机测试](../tests/camera.test.mjs) 和 [离线测试](../tests/offline.test.mjs)。

@@ -1,5 +1,9 @@
 # 取景 · 构图相机
 
+**语言 / Language：** **简体中文** · [English](README.en.md)
+
+本项目界面提供 **中文 / English** 切换：打开「设置 → 语言 / Language」即可选择，语言偏好仅保存在本机，不依赖联网翻译服务；切换语言不会改变照片像素、模型或构图算法。英文功能说明请参阅 [English README](README.en.md) 与 [English user guide](docs/V6-USER-GUIDE.en.md)。
+
 V6 / Android **0.6.0** 是面向手机的构图引导相机：支持真实取景、设备倍率调节与数字裁剪、七种景别、八种构图、14 套关节火柴人姿势、直接摆放站位，以及不含辅助线的 JPEG 拍摄。人脸和人体模型在设备内运行。本轮优化连续倍率与手机操作布局，新增当前画面光线分析、可调风格、设备曝光补偿及姿势/景别/倍率/背景的协调检查；继续使用内置全部资源的 Android 离线宿主。
 
 公开源码仓库：[weg123159/qujing-camera-open](https://github.com/weg123159/qujing-camera-open)。本仓库仅发布清理后的当前源码，不包含原开发仓库的 Git 历史、旧验证截图或已签名 APK。界面使用纯 HTML、CSS 和 ES modules；Android 工程使用系统 WebView 执行这套界面，提供相机授权、系统图片选择和文件保存，不是 CameraX 原生拍摄引擎，也没有 iOS 安装包。
@@ -136,7 +140,7 @@ Android 最低 **8.0 / API 26**，目标 **API 35**，包名 `cn.qujing.camera`�
 静态发布目录为 `dist/`，没有前端框架构建步骤。不要以 `file://` 打开网页；本机开发可执行：
 
 ```sh
-python -m http.server 8000 --directory dist
+python scripts/dev-server.py
 ```
 
 访问 `http://localhost:8000/`；网页手机访问需 HTTPS。固定模型和第三方库已在工程中，运行模块检查无需安装 npm 依赖：

@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "version": "8074f1c4a2f481cd5608cb449b09398c579909119d5add8b50daa054b7f52779",
+  "version": "a5f1c1cc98ff74590d21359168661d5167327d7546e13878363e76d2686aa676",
   "workerHash": "303eb138d10a5f6b6be82b97061bd7dc9eb5e1e29c0dc8d97533ba0a36296929",
-  "totalFiles": 49,
-  "totalBytes": 41579687,
+  "totalFiles": 54,
+  "totalBytes": 41674735,
   "assets": [
     {
       "url": "app.mjs",
-      "bytes": 78429,
-      "sha256": "33857eaa84d509fb1e2298517a8794c5aa34fef261cc28eb56ea9e9ec439f386"
+      "bytes": 78432,
+      "sha256": "f979fef75875409e6359655a280777cf5263b193fe8aa43d9bfccbac85f3da1c"
     },
     {
       "url": "assets/app-icon-192.png",
@@ -181,14 +181,39 @@
       "sha256": "240c318e58d9ac0ddb12bb1fa3036dbfcec43d355a79e45381af7f726afe9128"
     },
     {
+      "url": "i18n-dict.mjs",
+      "bytes": 22653,
+      "sha256": "a387267e8f0797baa61130ddcb2d633a682fae5cc7b39df2916b98a74e7eac7e"
+    },
+    {
+      "url": "i18n-engine.mjs",
+      "bytes": 27260,
+      "sha256": "f2397459ccba87911de4cd5b453e4c23a2eea4181d248868de2a3fe6aa84d5bc"
+    },
+    {
+      "url": "i18n-poses.mjs",
+      "bytes": 7818,
+      "sha256": "e9436d983fcdcc20a70a72a9ac0b016c6378e39921d8b12da4137c6e3691e3bc"
+    },
+    {
+      "url": "i18n-runtime-dict.mjs",
+      "bytes": 23942,
+      "sha256": "f14b2afbbfcf0751b49d13d16eab7e5b3e443e9c3104a011e30fe25821c99f29"
+    },
+    {
+      "url": "i18n.mjs",
+      "bytes": 12634,
+      "sha256": "23d0ab0e17daaf86a8a48be31b764a6eafd91524c963ce7aabb166db9d46d1a8"
+    },
+    {
       "url": "index.html",
-      "bytes": 36659,
-      "sha256": "7a6c7ee5cc7827f93dec4071a21e1c264f1bad7dcc0a342cb668f8c9b1574f67"
+      "bytes": 37069,
+      "sha256": "c8988dd905b8c05e32acd6cc616048184ba3907748eca12fc3c64bf6d450b745"
     },
     {
       "url": "manifest.webmanifest",
-      "bytes": 575,
-      "sha256": "f520b3042beeb844d079eba704b099a4c8fe497887b38c8aa90555eedd91a131"
+      "bytes": 646,
+      "sha256": "6879d44e5268f872363b55b5dcea9629423f512edef41c7384d7e56962783327"
     },
     {
       "url": "native-bridge.mjs",
@@ -237,8 +262,8 @@
     },
     {
       "url": "style.css",
-      "bytes": 48813,
-      "sha256": "fb63f1ac66e13ce80d39cb844adc733c2a1cc1db04ee8dc0d647ac0b7a55b4eb"
+      "bytes": 49070,
+      "sha256": "5c3f7fffa88ce3845142fbab4c8ecb1ff453b7f2a8fbfb39fc29c0415d33b3da"
     },
     {
       "url": "zoom-geometry.mjs",

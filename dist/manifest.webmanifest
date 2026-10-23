@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "取景",
-  "short_name": "取景",
-  "description": "构图与姿势参考相机",
+  "name": "取景 / Qujing Composition Camera",
+  "short_name": "取景 Qujing",
+  "description": "构图与姿势参考相机 / Composition and pose guide camera",
   "lang": "zh-CN",
   "start_url": "./",
   "scope": "./",

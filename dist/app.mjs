@@ -1019,12 +1019,12 @@ const licensePaths = new Set([
   'assets/vendor/face-api/LICENSE', 'assets/vendor/face-api/TENSORFLOW-LICENSE',
   'assets/vendor/person/LICENSE', 'assets/vendor/person/NOTICE.txt'
 ]);
-$('[data-license-file]').forEach(button => button.addEventListener('click', async () => {
+$$('[data-license-file]').forEach(button => button.addEventListener('click', async () => {
   const path = button.dataset.licenseFile;
   if (!licensePaths.has(path)) return;
   const display = $('licenseText');
   display.textContent = '正在读取本地许可文件…';
-  $('[data-license-file]').forEach(item => { item.disabled = true; });
+  $$('[data-license-file]').forEach(item => { item.disabled = true; });
   try {
     const response = await fetch('./' + path);
     if (!response.ok) throw new Error('Cannot read local license: ' + response.status);
@@ -1032,7 +1032,7 @@ $('[data-license-file]').forEach(button => button.addEventListener('click', asyn
   } catch {
     display.textContent = '无法读取本地许可文件。请检查 APK / 离线资源是否完整。';
   } finally {
-    $('[data-license-file]').forEach(item => { item.disabled = false; });
+    $$('[data-license-file]').forEach(item => { item.disabled = false; });
   }
 }));
 $('finishPlacementBtn').addEventListener('click',finishPlacement);

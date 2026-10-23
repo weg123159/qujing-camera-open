@@ -1,5 +1,5 @@
 /* Offline assets are verified before this worker can activate. Generated build stamps follow. */
-const OFFLINE_BUILD = '8074f1c4a2f481cd5608cb449b09398c579909119d5add8b50daa054b7f52779';
+const OFFLINE_BUILD = 'a5f1c1cc98ff74590d21359168661d5167327d7546e13878363e76d2686aa676';
 const OFFLINE_WORKER_SOURCE_HASH = '303eb138d10a5f6b6be82b97061bd7dc9eb5e1e29c0dc8d97533ba0a36296929';
 const OFFLINE_CHANNEL = 'qujing-offline';
 

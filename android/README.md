@@ -1,5 +1,7 @@
 # 取景相机 Android 离线安装包
 
+**语言 / Language：** **简体中文** · [English](README.en.md)
+
 包名 `cn.qujing.camera`，版本 `0.6.0`，最低 Android 8.0 / API 26，目标 API 35。应用使用系统 Android WebView 执行现有相机界面，加入相机权限、系统图片选择器和系统文件保存流程；不是原生 CameraX 拍摄引擎。设备需要可用且足够新的系统 WebView，ES modules、WebAssembly、getUserMedia 等能力取决于该组件。
 
 ## 离线边界
